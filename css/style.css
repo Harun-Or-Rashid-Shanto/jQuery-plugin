@@ -1,0 +1,63 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 28px;
+}
+
+h2,h3{
+    font-family: 'Arvo', serif; 
+    font-weight: 700;
+    margin: 0;
+}
+#testimonial{
+    background-color: #F63854;
+    text-align: center;
+}
+.container{
+    max-width: 1140px;
+    margin: auto;
+}
+h2 a,
+h3 a{
+    text-decoration: none;
+    color: #333;
+}
+.section-padding{
+    padding: 60px 0;
+}
+.img-thumb{
+    text-align: center;
+}
+.img-thumb img{
+    width: inherit !important;
+    border-radius: 50%;
+    margin: auto;
+    margin-bottom: 10px;
+}
+.carousel-item{
+    background-color: #fff;
+    margin: 0 10px;
+    padding: 20px;
+    border-radius: 2%;
+}
+.content-icons span{
+    color: #F63854;
+}
+#testimonial .owl-theme .owl-dots .owl-dot span {
+    background-color: #F63854;
+    border: 2px solid #fff;
+}
+#testimonial .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #fff;
+    border: 2px solid #fff;
+}
+
+
+@media screen and (max-width:1199.98px) {
+    .section-padding{
+        padding: 50px 60px;
+    }
+}
